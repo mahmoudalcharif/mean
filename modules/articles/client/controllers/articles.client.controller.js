@@ -18,7 +18,8 @@ angular.module('articles').controller('ArticlesController', ['$scope', '$statePa
       // Create new Article object
       var article = new Articles({
         title: this.title,
-        content: this.content
+        content: this.content,
+		name:this.name
       });
 
       // Redirect after save

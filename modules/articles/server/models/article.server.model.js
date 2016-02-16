@@ -20,6 +20,12 @@ var ArticleSchema = new Schema({
     trim: true,
     required: 'Title cannot be blank'
   },
+   name: {
+    type: String,
+    default: '',
+    trim: true,
+    required: 'This.Name cannot be blank'
+  },
   content: {
     type: String,
     default: '',

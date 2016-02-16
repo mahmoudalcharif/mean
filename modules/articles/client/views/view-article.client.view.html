@@ -16,6 +16,8 @@
       <span ng-bind="article.created | date:'mediumDate'"></span>
       by
       <span ng-bind="article.user.displayName"></span>
+	  Kamen by
+	  <span ng-bind="article.name"></span>
     </em>
   </small>
   <p class="lead" ng-bind="article.content"></p>
